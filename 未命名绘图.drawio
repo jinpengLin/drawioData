@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="Q0NscItecU1U9k1imM_O">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-1" target="P5QHbWgMxLtJwnUJuL_Y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-1" value="quer.ts.query()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-3" target="P5QHbWgMxLtJwnUJuL_Y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-3" target="P5QHbWgMxLtJwnUJuL_Y-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-3" value="checkAutoCompact&lt;div&gt;符合条件就会进行上下文压缩&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-5" target="P5QHbWgMxLtJwnUJuL_Y-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-5" value="shouldAutoCompact&lt;div&gt;判断是否需要压缩&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-8" target="P5QHbWgMxLtJwnUJuL_Y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P5QHbWgMxLtJwnUJuL_Y-11">
+          <mxGeometry x="0.0089" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P5QHbWgMxLtJwnUJuL_Y-15">
+          <mxGeometry x="-0.3467" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-8" value="结果" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-10" target="P5QHbWgMxLtJwnUJuL_Y-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-10" value="创建压缩prompt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-19" value="返回原内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-21" target="P5QHbWgMxLtJwnUJuL_Y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-21" value="messages大于3条，且token使用量大于模型最大上下文的0.92时返回true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="70" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-23" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-25" value="调用llm" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-27" target="P5QHbWgMxLtJwnUJuL_Y-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-27" value="调用llm逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-28" target="P5QHbWgMxLtJwnUJuL_Y-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-28" value="根据条件初始化&lt;div&gt;responseState&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-30" target="P5QHbWgMxLtJwnUJuL_Y-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-30" value="如果prependCLISysprompt&lt;div&gt;为true&lt;/div&gt;&lt;div&gt;系统提示词数组用逗号合并并加上固定前缀，然后组成1个元素的数组&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="280" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-32" target="P5QHbWgMxLtJwnUJuL_Y-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-32" value="系统提示词数组，用换行符合并第二个元素开始的元素，然后组成[1号元素,合并元素]数组" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="420" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-34" value="构造用户信息&lt;div&gt;确保 tool result 紧跟在对应的 tool call 之后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
