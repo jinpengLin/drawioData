@@ -70,8 +70,8 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-27" target="P5QHbWgMxLtJwnUJuL_Y-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-27" value="调用llm逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-27" value="调用llm逻辑&lt;div&gt;由于这里会调用各种厂商的llm，所以会存在各种的信息格式的转换&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="50" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-28" target="P5QHbWgMxLtJwnUJuL_Y-30">
           <mxGeometry relative="1" as="geometry" />
@@ -91,8 +91,14 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-32" value="系统提示词数组，用换行符合并第二个元素开始的元素，然后组成[1号元素,合并元素]数组" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1005" y="420" width="170" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-34" target="P5QHbWgMxLtJwnUJuL_Y-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-34" value="构造用户信息&lt;div&gt;确保 tool result 紧跟在对应的 tool call 之后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-36" value="底层开始调用接口，这里会将tool构造成接口中function calling" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
