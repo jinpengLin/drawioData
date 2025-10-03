@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="Q0NscItecU1U9k1imM_O">
-    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1869" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="80" width="520" height="860" as="geometry" />
+        </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-1" target="P5QHbWgMxLtJwnUJuL_Y-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -61,8 +64,11 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-21" value="messages大于3条，且token使用量大于模型最大上下文的0.92时返回true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="515" y="70" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-23" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-23" value="若有压缩，将消息列表替换为压缩后的消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-25" target="P5QHbWgMxLtJwnUJuL_Y-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-25" value="调用llm" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="500" width="120" height="60" as="geometry" />
@@ -97,8 +103,56 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-34" value="构造用户信息&lt;div&gt;确保 tool result 紧跟在对应的 tool call 之后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" y="560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-36" target="P5QHbWgMxLtJwnUJuL_Y-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-36" value="底层开始调用接口，这里会将tool构造成接口中function calling" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-38" value="格式化响应，记录token消耗&lt;div&gt;inputTokens&lt;/div&gt;&lt;div&gt;inputTokens&lt;/div&gt;&lt;div&gt;cacheReadInputTokens&lt;/div&gt;&lt;div&gt;cacheCreationInputTokens&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="810" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-40" target="P5QHbWgMxLtJwnUJuL_Y-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-40" value="挑选最近读取过的5个文件，添加到上一步返回的上下文中，由于代码文件长度不短，这里有设置了token长度约束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="585" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-42" value="清理上下文，并返回结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-45" value="codeStyle&lt;br&gt;&lt;div&gt;这个内容主要用来让llm知道按照什么风格编写代码&lt;br&gt;&lt;div&gt;重当前目录开始向上遍历目录树来收集项目样式指南文件(AGENTS.md)&lt;/div&gt;&lt;div&gt;然后按照层级从高到低方式合并内容，然后在最前加上固定的prompt&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="476.25" width="228" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-46" value="获取~/.kode.json&lt;div&gt;文件下projects中key为当前目录的context字段&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="120" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-47" value="&lt;div&gt;directoryStructure&lt;/div&gt;获取当前项目的目录结构，然后拼装成prompt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-48" value="这些获取上线文的每个步骤都是使用memoize进行缓存的，&lt;div&gt;到时候是可以通过调用memoize返回结果中的cache属性的clear方法进行缓存清理，例如：&lt;/div&gt;&lt;div&gt;[memoize结果].cache.clear()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="180" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-49" value="&lt;div&gt;claudeFiles&lt;/div&gt;搜索项目中所有&lt;div&gt;AGENTS.md和CLAUDE.md&lt;/div&gt;&lt;div&gt;然后将这些文件的绝对路径拼装成prompt，用来告知llm在在这些目录下编写代码时要阅读文件遵守规范&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-571" y="628.75" width="211" height="91.25" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-50" value="&lt;div&gt;gitStatus&lt;/div&gt;如果当前项目是git，这将当前项目的git信息(当前分支、工作区和暂存区中文件的状态等)拼装成prompt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-51" value="&lt;div&gt;readme&lt;/div&gt;获取当前目录下README.md文件的内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-52" value="projectDocs&lt;div&gt;读取当前目录下&lt;/div&gt;&lt;div&gt;AGENTS.md and CLAUDE.md&lt;/div&gt;&lt;div&gt;的内容，并拼接起来&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-564.5" y="840" width="183" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-54" value="context" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;参数&lt;/h1&gt;&lt;p&gt;messages:消息数组&lt;/p&gt;&lt;p&gt;systemPrompt：系统提示词数组&lt;/p&gt;&lt;p&gt;context：上下文&lt;/p&gt;&lt;p&gt;canUseTool：判断是否可以使用工具&lt;/p&gt;&lt;p&gt;toolUseContext：工具使用上下文&lt;/p&gt;&lt;p&gt;getBinaryFeedbackResponse：二元反馈（Binary Feedback）机制的回调函数，用于实现 AI 响应的 A/B 测试和用户偏好收集。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-180" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-57" value="REPL.tsx.onQuery入口进来时，&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;toolUseContext.&lt;/span&gt;agentId为空&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-170" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
