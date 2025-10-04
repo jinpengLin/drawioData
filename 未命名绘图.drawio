@@ -160,7 +160,7 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-57" value="REPL.tsx.onQuery入口进来时，&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;toolUseContext.&lt;/span&gt;agentId为空&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="-170" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-59" value="SystemReminderService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-59" value="SystemReminderService&lt;div&gt;系统提醒消息服务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-750" y="1070" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-60" value="&lt;div&gt;sessionState&lt;/div&gt;负责追踪整个对话会话期间的各种事件和状态，用于智能生成和控制系统提醒（reminders）的注入。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -188,6 +188,9 @@
           <mxGeometry x="-740" y="1480" width="272" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-1" target="Ng6PZ43AAAkMnln1ni1C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-1" target="Ng6PZ43AAAkMnln1ni1C-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-1" value="增强系统提示词并返回提醒消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -249,6 +252,15 @@
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="800" y="1150" width="20" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-24" value="发送提醒消息事件&lt;div&gt;session:startup&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-26" value="eventDispatcher&lt;div&gt;提醒消息事件分发器&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-412" y="1210" width="113" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-27" value="&lt;div&gt;session:startup&lt;/div&gt;重置sessionState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1260" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
