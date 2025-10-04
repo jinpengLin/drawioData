@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-770" y="1050" width="450" height="580" as="geometry" />
+          <mxGeometry x="-770" y="1050" width="580" height="750" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-810" y="80" width="520" height="860" as="geometry" />
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-21" value="messages大于3条，且token使用量大于模型最大上下文的0.92时返回true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="515" y="70" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-23" target="Ng6PZ43AAAkMnln1ni1C-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-23" value="若有压缩，将消息列表替换为压缩后的消息" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="450" width="120" height="60" as="geometry" />
@@ -148,8 +151,8 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-52" value="projectDocs&lt;div&gt;读取当前目录下&lt;/div&gt;&lt;div&gt;AGENTS.md and CLAUDE.md&lt;/div&gt;&lt;div&gt;的内容，并拼接起来&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-564.5" y="840" width="183" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-54" value="context" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="105" width="60" height="30" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-54" value="context&lt;div&gt;agent上下文&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="105" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;参数&lt;/h1&gt;&lt;p&gt;messages:消息数组&lt;/p&gt;&lt;p&gt;systemPrompt：系统提示词数组&lt;/p&gt;&lt;p&gt;context：上下文&lt;/p&gt;&lt;p&gt;canUseTool：判断是否可以使用工具&lt;/p&gt;&lt;p&gt;toolUseContext：工具使用上下文&lt;/p&gt;&lt;p&gt;getBinaryFeedbackResponse：二元反馈（Binary Feedback）机制的回调函数，用于实现 AI 响应的 A/B 测试和用户偏好收集。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="-180" width="250" height="250" as="geometry" />
@@ -157,32 +160,95 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-57" value="REPL.tsx.onQuery入口进来时，&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;toolUseContext.&lt;/span&gt;agentId为空&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="-170" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-59" value="SystemReminderService.sessionState" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-750" y="1080" width="230" height="40" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-59" value="SystemReminderService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="1070" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-60" value="负责追踪整个对话会话期间的各种事件和状态，用于智能生成和控制系统提醒（reminders）的注入。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-740" y="1120" width="210" height="61" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-60" value="&lt;div&gt;sessionState&lt;/div&gt;负责追踪整个对话会话期间的各种事件和状态，用于智能生成和控制系统提醒（reminders）的注入。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="1130" width="210" height="61" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-61" value="&lt;div&gt;config: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; todoEmptyReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用 Todo 为空提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; securityReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 是否启用安全提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; performanceReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用性能提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; maxRemindersPerSession: 10,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 每个会话最大提醒数&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-722.5" y="1520" width="341" height="90" as="geometry" />
+          <mxGeometry x="-741" y="1690" width="341" height="90" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-62" value="lastTodoUpdate //最后 Todo 更新时间,单位毫秒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="1190" width="272" height="40" as="geometry" />
+          <mxGeometry x="-740" y="1210" width="272" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-63" value="lastFileAccess //最后文件访问时间,单位毫秒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="1250" width="272" height="40" as="geometry" />
+          <mxGeometry x="-740" y="1270" width="272" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-64" value="sessionStartTime //会话开始时间" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="1305" width="272" height="40" as="geometry" />
+          <mxGeometry x="-740" y="1325" width="272" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-65" value="remindersSent //已发送提醒记录" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="1360" width="272" height="40" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-65" value="remindersSent //已发送提醒记录key，set会去重" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="1380" width="272" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-66" value="contextPresent //上下文存在标志" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="1410" width="272" height="40" as="geometry" />
+          <mxGeometry x="-740" y="1430" width="272" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-67" value="reminderCount //当前会话已发送的提醒数量" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-700" y="1460" width="272" height="40" as="geometry" />
+          <mxGeometry x="-740" y="1480" width="272" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-1" target="Ng6PZ43AAAkMnln1ni1C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-1" value="增强系统提示词并返回提醒消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-3" target="Ng6PZ43AAAkMnln1ni1C-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-3" value="如果有agent上下文时，将agent上线文放到系统提示词后面" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-5" target="Ng6PZ43AAAkMnln1ni1C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-5" value="如果有agent上下文，这根据agentId生成并返回提醒消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-7" target="Ng6PZ43AAAkMnln1ni1C-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-7" value="将sessionState.contextPresent更新为true" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="965" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-9" target="Ng6PZ43AAAkMnln1ni1C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-9" value="已发送的提醒消息超过最大值时返回空" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-11" target="Ng6PZ43AAAkMnln1ni1C-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-11" value="生成4种提醒消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-13" value="按顺序遍历消息，过滤掉消息个数大于4的，其余的添加的最终返回的提醒消息列表中，如果大于最大值则不添加" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="632.5" y="1860" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-16" value="dispatchTodoEvent&lt;div&gt;生成todo提醒&lt;/div&gt;&lt;div&gt;1.根据agentId获取todo信息&lt;/div&gt;&lt;div&gt;agentId不为空代表是subAgent触发的，直接从配置目录下读取对应agentId的文件&lt;/div&gt;&lt;div&gt;agentId为空相当于是主agent触发的，会先判断是否缓存不为空且位过期，若是返回，否则返回sesstionState.todos并将数据设置到缓存中&lt;/div&gt;&lt;div&gt;这些操作会同步更新sessionState.todoMetrics，这个用来计算缓存命中指标的&lt;/div&gt;&lt;div&gt;2.如果todo信息为空且根据sessionState.remindersSent判断出未添加过空todo的提醒，则返回一个空todo提醒&lt;/div&gt;&lt;div&gt;3.todo信息不为空，根据todo信息生成一个唯一key，根据这个key判断缓存中是否存在，存在直接返回，否则判断sessionState.remindersSent不存在这个key就将sessionState.remindersSent中该agentId之前的todo key删除，然后返回一个todo提醒并添加到reminderCache缓存中&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1140" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-17" value="todos //主agent的todo信息" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1530" width="272" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-18" value="todoMetrics:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;{&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; totalOperations: 0, // todo操作总次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheHits: 0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 缓存命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheMisses: 0,&amp;nbsp; &amp;nbsp; // 缓存位命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; lastOperation: 0,&amp;nbsp; &amp;nbsp;// 最近操作时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1590" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-19" value="reminderCache&lt;div&gt;各种提醒的缓存&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-412" y="1146" width="102" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-20" value="dispatchSecurityEvent&lt;div&gt;生成安全提醒&lt;/div&gt;&lt;div&gt;1.若sessionState.config.securityReminder未开启返回空&lt;/div&gt;&lt;div&gt;2.根据sessionState.lastFileAccess判断出访问过文件且根据sessionState.remindersSent判断出未发送过安全提醒，这返回一个安全提醒&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1435" width="320" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-21" value="dispatchPerformanceEvent&lt;div&gt;生成性能提醒&lt;/div&gt;&lt;div&gt;1.若sessionState.config.performanceReminder未开启返回空&lt;/div&gt;&lt;div&gt;2.根据sessionState.sessionStartTime判断出超过30分且根据sessionState.remindersSent判断出未发送过长对话性能提醒，这返回一个性能提醒&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1580" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-22" value="getMentionReminders&lt;div&gt;生成mention提醒&lt;/div&gt;&lt;div&gt;1.从reminderCache获取类型为[&#39;agent_mention&#39;, &#39;file_mention&#39;, &#39;ask_model_mention&#39;]的提醒删除已过期的返回未过期的&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1739" width="350" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1150" width="20" height="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
