@@ -275,13 +275,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-30" value="查询llm" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1397.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-32" target="Ng6PZ43AAAkMnln1ni1C-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-32" value="从返回结果中提取出类型为tool_use的消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1537.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-34" target="Ng6PZ43AAAkMnln1ni1C-36">
           <mxGeometry relative="1" as="geometry" />
@@ -311,6 +311,9 @@
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-40" value="将会话消息、llm返回的消息和tool执行结果合并起来，其余参数不变，重新调用query" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="2138.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-43" value="处理会话消息TODO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
