@@ -1,187 +1,187 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="Q0NscItecU1U9k1imM_O">
-    <mxGraphModel dx="1869" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1924" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-770" y="1050" width="450" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-810" y="80" width="520" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-1" target="P5QHbWgMxLtJwnUJuL_Y-3">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-1" target="P5QHbWgMxLtJwnUJuL_Y-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-1" value="quer.ts.query()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-1" value="quer.ts.query()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-3" target="P5QHbWgMxLtJwnUJuL_Y-5">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-3" target="P5QHbWgMxLtJwnUJuL_Y-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-3" target="P5QHbWgMxLtJwnUJuL_Y-23">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-3" target="P5QHbWgMxLtJwnUJuL_Y-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-3" value="checkAutoCompact&lt;div&gt;符合条件就会进行上下文压缩&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-3" value="checkAutoCompact&lt;div&gt;符合条件就会进行上下文压缩&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-5" target="P5QHbWgMxLtJwnUJuL_Y-8">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-5" target="P5QHbWgMxLtJwnUJuL_Y-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-5" value="shouldAutoCompact&lt;div&gt;判断是否需要压缩&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-5" value="shouldAutoCompact&lt;div&gt;判断是否需要压缩&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-8" target="P5QHbWgMxLtJwnUJuL_Y-10">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-8" target="P5QHbWgMxLtJwnUJuL_Y-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P5QHbWgMxLtJwnUJuL_Y-11">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="P5QHbWgMxLtJwnUJuL_Y-11" vertex="1" connectable="0">
           <mxGeometry x="0.0089" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-8">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P5QHbWgMxLtJwnUJuL_Y-15">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="P5QHbWgMxLtJwnUJuL_Y-15" vertex="1" connectable="0">
           <mxGeometry x="-0.3467" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-8" value="结果" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-8" value="结果" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="540" y="270" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-10" target="P5QHbWgMxLtJwnUJuL_Y-25">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-10" target="P5QHbWgMxLtJwnUJuL_Y-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-10" value="创建压缩prompt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-10" value="创建压缩prompt" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-19" value="返回原内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-19" value="返回原内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-21" target="P5QHbWgMxLtJwnUJuL_Y-5">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-21" target="P5QHbWgMxLtJwnUJuL_Y-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-21" value="messages大于3条，且token使用量大于模型最大上下文的0.92时返回true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-21" value="messages大于3条，且token使用量大于模型最大上下文的0.92时返回true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="515" y="70" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-23" value="若有压缩，将消息列表替换为压缩后的消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-23" value="若有压缩，将消息列表替换为压缩后的消息" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-25" target="P5QHbWgMxLtJwnUJuL_Y-40">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-25" target="P5QHbWgMxLtJwnUJuL_Y-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-25" value="调用llm" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-25" value="调用llm" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-27" target="P5QHbWgMxLtJwnUJuL_Y-28">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-27" target="P5QHbWgMxLtJwnUJuL_Y-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-27" value="调用llm逻辑&lt;div&gt;由于这里会调用各种厂商的llm，所以会存在各种的信息格式的转换&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="50" width="130" height="80" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-27" value="调用llm逻辑&lt;div&gt;由于这里会调用各种厂商的llm，所以会存在各种的信息格式的转换&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1395" y="-10" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-28" target="P5QHbWgMxLtJwnUJuL_Y-30">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-28" target="P5QHbWgMxLtJwnUJuL_Y-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-28" value="根据条件初始化&lt;div&gt;responseState&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-28" value="根据条件初始化&lt;div&gt;responseState&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-30" target="P5QHbWgMxLtJwnUJuL_Y-32">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-30" target="P5QHbWgMxLtJwnUJuL_Y-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-30" value="如果prependCLISysprompt&lt;div&gt;为true&lt;/div&gt;&lt;div&gt;系统提示词数组用逗号合并并加上固定前缀，然后组成1个元素的数组&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="280" width="140" height="100" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-30" value="如果prependCLISysprompt&lt;div&gt;为true&lt;/div&gt;&lt;div&gt;系统提示词数组用逗号合并并加上固定前缀，然后组成1个元素的数组&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="220" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-32" target="P5QHbWgMxLtJwnUJuL_Y-34">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-32" target="P5QHbWgMxLtJwnUJuL_Y-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-32" value="系统提示词数组，用换行符合并第二个元素开始的元素，然后组成[1号元素,合并元素]数组" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="420" width="170" height="80" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-32" value="系统提示词数组，用换行符合并第二个元素开始的元素，然后组成[1号元素,合并元素]数组" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="360" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-34" target="P5QHbWgMxLtJwnUJuL_Y-36">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-34" target="P5QHbWgMxLtJwnUJuL_Y-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-34" value="构造用户信息&lt;div&gt;确保 tool result 紧跟在对应的 tool call 之后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-34" value="构造用户信息&lt;div&gt;确保 tool result 紧跟在对应的 tool call 之后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-36" target="P5QHbWgMxLtJwnUJuL_Y-38">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-36" target="P5QHbWgMxLtJwnUJuL_Y-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-36" value="底层开始调用接口，这里会将tool构造成接口中function calling" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="680" width="120" height="60" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-36" value="底层开始调用接口，这里会将tool构造成接口中function calling" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-38" value="格式化响应，记录token消耗&lt;div&gt;inputTokens&lt;/div&gt;&lt;div&gt;inputTokens&lt;/div&gt;&lt;div&gt;cacheReadInputTokens&lt;/div&gt;&lt;div&gt;cacheCreationInputTokens&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="810" width="180" height="120" as="geometry" />
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-38" value="格式化响应，记录token消耗&lt;div&gt;inputTokens&lt;/div&gt;&lt;div&gt;inputTokens&lt;/div&gt;&lt;div&gt;cacheReadInputTokens&lt;/div&gt;&lt;div&gt;cacheCreationInputTokens&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="750" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-40" target="P5QHbWgMxLtJwnUJuL_Y-42">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-40" target="P5QHbWgMxLtJwnUJuL_Y-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-40" value="挑选最近读取过的5个文件，添加到上一步返回的上下文中，由于代码文件长度不短，这里有设置了token长度约束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-40" value="挑选最近读取过的5个文件，添加到上一步返回的上下文中，由于代码文件长度不短，这里有设置了token长度约束" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="585" width="160" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-42" value="清理上下文，并返回结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-42" value="清理上下文，并返回结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-45" value="codeStyle&lt;br&gt;&lt;div&gt;这个内容主要用来让llm知道按照什么风格编写代码&lt;br&gt;&lt;div&gt;重当前目录开始向上遍历目录树来收集项目样式指南文件(AGENTS.md)&lt;/div&gt;&lt;div&gt;然后按照层级从高到低方式合并内容，然后在最前加上固定的prompt&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-45" value="codeStyle&lt;br&gt;&lt;div&gt;这个内容主要用来让llm知道按照什么风格编写代码&lt;br&gt;&lt;div&gt;重当前目录开始向上遍历目录树来收集项目样式指南文件(AGENTS.md)&lt;/div&gt;&lt;div&gt;然后按照层级从高到低方式合并内容，然后在最前加上固定的prompt&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-580" y="476.25" width="228" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-46" value="获取~/.kode.json&lt;div&gt;文件下projects中key为当前目录的context字段&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-46" value="获取~/.kode.json&lt;div&gt;文件下projects中key为当前目录的context字段&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-540" y="120" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-47" value="&lt;div&gt;directoryStructure&lt;/div&gt;获取当前项目的目录结构，然后拼装成prompt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-47" value="&lt;div&gt;directoryStructure&lt;/div&gt;获取当前项目的目录结构，然后拼装成prompt" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-520" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-48" value="这些获取上线文的每个步骤都是使用memoize进行缓存的，&lt;div&gt;到时候是可以通过调用memoize返回结果中的cache属性的clear方法进行缓存清理，例如：&lt;/div&gt;&lt;div&gt;[memoize结果].cache.clear()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-48" value="这些获取上线文的每个步骤都是使用memoize进行缓存的，&lt;div&gt;到时候是可以通过调用memoize返回结果中的cache属性的clear方法进行缓存清理，例如：&lt;/div&gt;&lt;div&gt;[memoize结果].cache.clear()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-790" y="180" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-49" value="&lt;div&gt;claudeFiles&lt;/div&gt;搜索项目中所有&lt;div&gt;AGENTS.md和CLAUDE.md&lt;/div&gt;&lt;div&gt;然后将这些文件的绝对路径拼装成prompt，用来告知llm在在这些目录下编写代码时要阅读文件遵守规范&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-49" value="&lt;div&gt;claudeFiles&lt;/div&gt;搜索项目中所有&lt;div&gt;AGENTS.md和CLAUDE.md&lt;/div&gt;&lt;div&gt;然后将这些文件的绝对路径拼装成prompt，用来告知llm在在这些目录下编写代码时要阅读文件遵守规范&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-571" y="628.75" width="211" height="91.25" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-50" value="&lt;div&gt;gitStatus&lt;/div&gt;如果当前项目是git，这将当前项目的git信息(当前分支、工作区和暂存区中文件的状态等)拼装成prompt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-50" value="&lt;div&gt;gitStatus&lt;/div&gt;如果当前项目是git，这将当前项目的git信息(当前分支、工作区和暂存区中文件的状态等)拼装成prompt" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-540" y="350" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-51" value="&lt;div&gt;readme&lt;/div&gt;获取当前目录下README.md文件的内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-51" value="&lt;div&gt;readme&lt;/div&gt;获取当前目录下README.md文件的内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-533" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-52" value="projectDocs&lt;div&gt;读取当前目录下&lt;/div&gt;&lt;div&gt;AGENTS.md and CLAUDE.md&lt;/div&gt;&lt;div&gt;的内容，并拼接起来&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-52" value="projectDocs&lt;div&gt;读取当前目录下&lt;/div&gt;&lt;div&gt;AGENTS.md and CLAUDE.md&lt;/div&gt;&lt;div&gt;的内容，并拼接起来&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-564.5" y="840" width="183" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-54" value="context" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-54" value="context" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-760" y="105" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;参数&lt;/h1&gt;&lt;p&gt;messages:消息数组&lt;/p&gt;&lt;p&gt;systemPrompt：系统提示词数组&lt;/p&gt;&lt;p&gt;context：上下文&lt;/p&gt;&lt;p&gt;canUseTool：判断是否可以使用工具&lt;/p&gt;&lt;p&gt;toolUseContext：工具使用上下文&lt;/p&gt;&lt;p&gt;getBinaryFeedbackResponse：二元反馈（Binary Feedback）机制的回调函数，用于实现 AI 响应的 A/B 测试和用户偏好收集。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;参数&lt;/h1&gt;&lt;p&gt;messages:消息数组&lt;/p&gt;&lt;p&gt;systemPrompt：系统提示词数组&lt;/p&gt;&lt;p&gt;context：上下文&lt;/p&gt;&lt;p&gt;canUseTool：判断是否可以使用工具&lt;/p&gt;&lt;p&gt;toolUseContext：工具使用上下文&lt;/p&gt;&lt;p&gt;getBinaryFeedbackResponse：二元反馈（Binary Feedback）机制的回调函数，用于实现 AI 响应的 A/B 测试和用户偏好收集。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="-180" width="250" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-57" value="REPL.tsx.onQuery入口进来时，&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;toolUseContext.&lt;/span&gt;agentId为空&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-57" value="REPL.tsx.onQuery入口进来时，&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;toolUseContext.&lt;/span&gt;agentId为空&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="-170" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-59" value="SystemReminderService.sessionState" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-59" value="SystemReminderService.sessionState" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-750" y="1080" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-60" value="负责追踪整个对话会话期间的各种事件和状态，用于智能生成和控制系统提醒（reminders）的注入。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-60" value="负责追踪整个对话会话期间的各种事件和状态，用于智能生成和控制系统提醒（reminders）的注入。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-740" y="1120" width="210" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-61" value="&lt;div&gt;config: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; todoEmptyReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用 Todo 为空提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; securityReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 是否启用安全提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; performanceReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用性能提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; maxRemindersPerSession: 10,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 每个会话最大提醒数&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-61" value="&lt;div&gt;config: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; todoEmptyReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用 Todo 为空提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; securityReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 是否启用安全提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; performanceReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用性能提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; maxRemindersPerSession: 10,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 每个会话最大提醒数&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-722.5" y="1520" width="341" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-62" value="lastTodoUpdate //最后 Todo 更新时间,单位毫秒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-62" value="lastTodoUpdate //最后 Todo 更新时间,单位毫秒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-700" y="1190" width="272" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-63" value="lastFileAccess //最后文件访问时间,单位毫秒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-63" value="lastFileAccess //最后文件访问时间,单位毫秒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-700" y="1250" width="272" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-64" value="sessionStartTime //会话开始时间" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-64" value="sessionStartTime //会话开始时间" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-700" y="1305" width="272" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-65" value="remindersSent //已发送提醒记录" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-65" value="remindersSent //已发送提醒记录" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-700" y="1360" width="272" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-66" value="contextPresent //上下文存在标志" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-66" value="contextPresent //上下文存在标志" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-700" y="1410" width="272" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-67" value="reminderCount //当前会话已发送的提醒数量" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-67" value="reminderCount //当前会话已发送的提醒数量" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-700" y="1460" width="272" height="40" as="geometry" />
         </mxCell>
       </root>
