@@ -8,7 +8,7 @@
           <mxGeometry x="-780" y="2570" width="440" height="681" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-770" y="1050" width="580" height="560" as="geometry" />
+          <mxGeometry x="-770" y="1050" width="580" height="690" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-810" y="80" width="520" height="860" as="geometry" />
@@ -229,7 +229,7 @@
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-13" value="按顺序遍历消息，过滤掉消息个数大于4的，其余的添加的最终返回的提醒消息列表中，如果大于最大值则不添加" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="632.5" y="1860" width="145" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Ng6PZ43AAAkMnln1ni1C-16" value="dispatchTodoEvent&lt;div&gt;生成todo提醒&lt;/div&gt;&lt;div&gt;1.调用todo存储服务的getTodos(agentId)方法，根据agentId获取todo信息&lt;/div&gt;&lt;div&gt;2.如果todo信息为空且根据sessionState.remindersSent判断出未添加过空todo的提醒，则返回一个空todo提醒&lt;/div&gt;&lt;div&gt;3.todo信息不为空，根据todo信息和agentId生成一个唯一key，根据这个key判断reminderCache缓存中是否存在，存在直接返回，否则判断sessionState.remindersSent不存在这个key就将sessionState.remindersSent中该agentId之前的todo key删除，然后返回一个todo提醒并添加到reminderCache缓存中&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-16" value="dispatchTodoEvent&lt;div&gt;生成todo提醒&lt;/div&gt;&lt;div&gt;1.调用todo存储服务的getTodos(agentId)方法，根据agentId获取todo信息&lt;/div&gt;&lt;div&gt;2.如果todo信息为空且根据sessionState.remindersSent判断出未添加过空todo的提醒，则返回一个空todo提醒&lt;/div&gt;&lt;div&gt;3.todo信息不为空，根据todo信息和agentId生成一个唯一key，根据这个key判断reminderCache缓存中是否存在，存在直接返回，否则判断sessionState.remindersSent不存在这个key就将调用提醒服务的clearTodoReminders方法将该agent之前的todo更新提醒删除，然后返回一个todo提醒并添加到reminderCache缓存中&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="1140" width="360" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-17" value="todos //主agent的todo信息" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
@@ -351,11 +351,14 @@
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-58" value="sessionState//这个是全局的放在另外一个文件，主要是todo存储服务在用，有以下几个关键属性&lt;div&gt;&lt;div&gt;config: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; todoEmptyReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用 Todo 为空提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; securityReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 是否启用安全提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; performanceReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用性能提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; maxRemindersPerSession: 10,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 每个会话最大提醒数&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;todoMetrics:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;{&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; totalOperations: 0, // todo操作总次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheHits: 0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 缓存命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheMisses: 0,&amp;nbsp; &amp;nbsp; // 缓存位命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; lastOperation: 0,&amp;nbsp; &amp;nbsp;// 最近操作时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-741" y="1960" width="341" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Ng6PZ43AAAkMnln1ni1C-59" value="todoCache&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// todo缓存&lt;div&gt;cacheTimestamp // todo缓存时间&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-59" value="todoCache&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// todo缓存，这两个是主agent在使用&lt;div&gt;cacheTimestamp // todo缓存时间&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-744.5" y="2190" width="204.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-60" value="getTodos(agentId)&lt;div&gt;&lt;div&gt;根据agentId获取todo信息&lt;/div&gt;&lt;div&gt;agentId不为空代表是subAgent触发的，直接从配置目录下读取对应agentId的todo文件&lt;/div&gt;&lt;div&gt;agentId为空相当于是主agent触发的，会先判断是否todoCache缓存不为空且cacheTimestamp没过期，若是返回todoCache缓存，否则返回sesstionState.todos并将数据设置到todoCache缓存中&lt;/div&gt;&lt;/div&gt;&lt;div&gt;这些操作会同步更新sessionState.todoMetrics，这个用来计算缓存命中指标的&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-750" y="2250" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-61" value="clearTodoReminders(agentId)&lt;div&gt;清除todo更新提醒&lt;/div&gt;&lt;div&gt;根据agentId删除sessionState.remindersSent中以该agentId为前缀的todo提醒信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1650" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
