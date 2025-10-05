@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="2079" width="440" height="431" as="geometry" />
+        </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-770" y="1050" width="580" height="750" as="geometry" />
         </mxCell>
@@ -262,8 +265,8 @@
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-26" value="eventDispatcher&lt;div&gt;提醒消息事件分发器&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-412" y="1210" width="113" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ng6PZ43AAAkMnln1ni1C-27" value="&lt;div&gt;session:startup&lt;/div&gt;重置sessionState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="1260" width="200" height="40" as="geometry" />
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-27" value="&lt;div&gt;session:startup&lt;/div&gt;1.重置提醒服务的sessionState&lt;div&gt;2.重置文件新鲜度服务的state和取消todo文件的监听，这个事件在文件新鲜服务的构造器上注册&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1260" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-28" target="Ng6PZ43AAAkMnln1ni1C-30">
           <mxGeometry relative="1" as="geometry" />
@@ -332,6 +335,12 @@
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-47" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1291" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-50" value="FileFreshnessService&lt;div&gt;文件新鲜度服务&lt;br&gt;&lt;div&gt;文件新鲜度跟踪和变更检测&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-764.5" y="2090" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-53" value="&lt;div&gt;// 状态&lt;/div&gt;state:&lt;span style=&quot;background-color: transparent;&quot;&gt;{&lt;/span&gt;&lt;div&gt;&amp;nbsp; readTimestamps: Map&amp;lt;string, FileTimestamp&amp;gt;//key是文件路径，val是文件的访问时间等信息&lt;/div&gt;&lt;div&gt;&amp;nbsp; editConflicts: Set&amp;lt;string&amp;gt;//记录存在编辑冲突的文件路径集合，指的是agent访问后用户通过ide又修改过的文件&lt;/div&gt;&lt;div&gt;&amp;nbsp; sessionFiles: Set&amp;lt;string&amp;gt;//记录当前会话中所有被访问过的文件路径&lt;/div&gt;&lt;div&gt;&amp;nbsp; watchedTodoFiles: Map&amp;lt;string, string&amp;gt; // 存储正在监控的TODO文件映射,agentId -&amp;gt; filePath&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2210" width="370" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
