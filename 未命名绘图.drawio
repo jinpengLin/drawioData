@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="Q0NscItecU1U9k1imM_O">
-    <mxGraphModel dx="2130" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2053" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,6 +323,15 @@
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-44" value="将llm返回的消息中的content重置为数组，包含以下几个部分&lt;div&gt;1.message中的tool_calls生成type为tool_use的对象&lt;/div&gt;&lt;div&gt;2.将message中的content生成为type为text的对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1328.75" y="730" width="262.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-46" target="Ng6PZ43AAAkMnln1ni1C-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-46" value="TodoWriteTool&lt;div&gt;参数：&lt;/div&gt;&lt;div&gt;todos数组&lt;/div&gt;&lt;div&gt;每个todo参数：&lt;/div&gt;&lt;div&gt;content：内容描述&lt;/div&gt;&lt;div&gt;status：执行状态&lt;/div&gt;&lt;div&gt;proority：优先级&lt;/div&gt;&lt;div&gt;id：唯一值&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2070" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-47" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
