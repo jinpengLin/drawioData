@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="2079" width="440" height="431" as="geometry" />
+          <mxGeometry x="-780" y="2570" width="440" height="681" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-770" y="1050" width="580" height="750" as="geometry" />
+          <mxGeometry x="-770" y="1050" width="580" height="560" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-810" y="80" width="520" height="860" as="geometry" />
@@ -169,9 +169,6 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-60" value="&lt;div&gt;sessionState&lt;/div&gt;负责追踪整个对话会话期间的各种事件和状态，用于智能生成和控制系统提醒（reminders）的注入。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-730" y="1130" width="210" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-61" value="&lt;div&gt;config: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; todoEmptyReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用 Todo 为空提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; securityReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 是否启用安全提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; performanceReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用性能提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; maxRemindersPerSession: 10,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 每个会话最大提醒数&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-741" y="1690" width="341" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-62" value="lastTodoUpdate //最后 Todo 更新时间,单位毫秒" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-740" y="1210" width="272" height="40" as="geometry" />
         </mxCell>
@@ -237,9 +234,6 @@
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-17" value="todos //主agent的todo信息" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-740" y="1530" width="272" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Ng6PZ43AAAkMnln1ni1C-18" value="todoMetrics:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;{&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; totalOperations: 0, // todo操作总次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheHits: 0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 缓存命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheMisses: 0,&amp;nbsp; &amp;nbsp; // 缓存位命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; lastOperation: 0,&amp;nbsp; &amp;nbsp;// 最近操作时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="1590" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-19" value="reminderCache&lt;div&gt;各种提醒的缓存&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-412" y="1146" width="102" height="34" as="geometry" />
@@ -337,10 +331,31 @@
           <mxGeometry x="1291" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-50" value="FileFreshnessService&lt;div&gt;文件新鲜度服务&lt;br&gt;&lt;div&gt;文件新鲜度跟踪和变更检测&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-764.5" y="2090" width="200" height="50" as="geometry" />
+          <mxGeometry x="-774.5" y="2581" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-53" value="&lt;div&gt;// 状态&lt;/div&gt;state:&lt;span style=&quot;background-color: transparent;&quot;&gt;{&lt;/span&gt;&lt;div&gt;&amp;nbsp; readTimestamps: Map&amp;lt;string, FileTimestamp&amp;gt;//key是文件路径，val是文件的访问时间等信息&lt;/div&gt;&lt;div&gt;&amp;nbsp; editConflicts: Set&amp;lt;string&amp;gt;//记录存在编辑冲突的文件路径集合，指的是agent访问后用户通过ide又修改过的文件&lt;/div&gt;&lt;div&gt;&amp;nbsp; sessionFiles: Set&amp;lt;string&amp;gt;//记录当前会话中所有被访问过的文件路径&lt;/div&gt;&lt;div&gt;&amp;nbsp; watchedTodoFiles: Map&amp;lt;string, string&amp;gt; // 存储正在监控的TODO文件映射,agentId -&amp;gt; filePath&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="2210" width="370" height="150" as="geometry" />
+          <mxGeometry x="-770" y="2701" width="370" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-54" value="recordFileRead&lt;div&gt;记录文件读取记录&lt;/div&gt;&lt;div&gt;1.更新文件的读取和修改时间、文件大小等信息到state.readTimestamps&lt;/div&gt;&lt;div&gt;2.触发消息提醒服务的file:read事件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2891" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-55" value="startWatchingTodoFile(agentId: string)&lt;div&gt;监听sub-agent的todo文件&lt;/div&gt;&lt;div&gt;1.判断state.watchedTodoFiles，如果对应agentId监听过则结束&lt;/div&gt;&lt;div&gt;2.添加agentId到state.watchedTodoFiles，代表已监听&lt;/div&gt;&lt;div&gt;3.调用&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;recordFileRead，记录文件读取情况&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.设置一个监听器，每隔1定时间执行以下操作：&lt;br&gt;①根据&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;state.readTimestamps判断文件是否读取过，根据记录的修改时间和当前的修改时间判断是否修改过，如果读取且修改过就会返回文件修改提醒，如果文件不存在了，就会返回文件删除提醒，其余不返回&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;②如果有提醒消息则触发提醒服务的&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;todo:file_changed事件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-762" y="3041" width="400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1880" width="560" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-57" value="todoStorage.ts&lt;div&gt;todo存储服务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1903" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-58" value="sessionState//这个是全局的放在另外一个文件，主要是todo存储服务在用，有以下几个关键属性&lt;div&gt;&lt;div&gt;config: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; todoEmptyReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用 Todo 为空提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; securityReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 是否启用安全提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; performanceReminder: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 是否启用性能提醒&lt;/div&gt;&lt;div&gt;&amp;nbsp; maxRemindersPerSession: 10,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 每个会话最大提醒数&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;todoMetrics:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;{&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; totalOperations: 0, // todo操作总次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheHits: 0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 缓存命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cacheMisses: 0,&amp;nbsp; &amp;nbsp; // 缓存位命中次数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; lastOperation: 0,&amp;nbsp; &amp;nbsp;// 最近操作时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-741" y="1960" width="341" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-59" value="todoCache&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// todo缓存&lt;div&gt;cacheTimestamp // todo缓存时间&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-744.5" y="2190" width="204.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-60" value="getTodos(agentId)&lt;div&gt;&lt;div&gt;根据agentId获取todo信息&lt;/div&gt;&lt;div&gt;agentId不为空代表是subAgent触发的，直接从配置目录下读取对应agentId的todo文件&lt;/div&gt;&lt;div&gt;agentId为空相当于是主agent触发的，会先判断是否缓存不为空且位过期，若是返回，否则返回sesstionState.todos并将数据设置到缓存中&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="2250" width="350" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
