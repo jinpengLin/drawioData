@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="Q0NscItecU1U9k1imM_O">
-    <mxGraphModel dx="2316" dy="1972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2564" dy="2106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -461,6 +461,9 @@
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-95" value="1.扫描特定目录下的.md文件，这些文件的内容要符合以下格式：&lt;div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;name: subagent类型&lt;/div&gt;&lt;div&gt;description: 描述，到时候用来让llm决定是否使用的&lt;/div&gt;&lt;div&gt;tools: subagent需要使用的工具&lt;/div&gt;&lt;div&gt;color: green&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;subagent的系统提示词&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.拼上系统内置的一个subagent，内容大概如下：&lt;/div&gt;&lt;div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;name: general-purpose&lt;/div&gt;&lt;div&gt;description: General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks&lt;/div&gt;&lt;div&gt;tools: *&lt;/div&gt;&lt;div&gt;---&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-790" y="3740" width="520" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-96" value="ThinkTool&lt;div&gt;将 AI 的隐式推理过程显式化&lt;/div&gt;&lt;div&gt;本质上是给 AI 一个&quot;自言自语&quot;的渠道&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="2080" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
