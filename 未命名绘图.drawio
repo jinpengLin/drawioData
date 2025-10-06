@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="Q0NscItecU1U9k1imM_O">
-    <mxGraphModel dx="2130" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,7 +109,7 @@
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P5QHbWgMxLtJwnUJuL_Y-34" target="P5QHbWgMxLtJwnUJuL_Y-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-34" value="构造用户信息&lt;div&gt;确保 tool result 紧跟在对应的 tool call 之后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="P5QHbWgMxLtJwnUJuL_Y-34" value="如果使用的是类openai的接口时会转换格式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1400" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P5QHbWgMxLtJwnUJuL_Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ng6PZ43AAAkMnln1ni1C-44" target="P5QHbWgMxLtJwnUJuL_Y-38" edge="1">
@@ -395,6 +395,12 @@
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-73" value="&lt;div&gt;用户输入的结果是&lt;/div&gt;&lt;div&gt;type=user,content=&#39;&#39;&lt;/div&gt;工具执行的结果是&lt;div&gt;type=user,content=[]&lt;/div&gt;&lt;div&gt;llm的返回结果是&lt;/div&gt;&lt;div&gt;type=assistant,content=[]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="2670" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-74" target="P5QHbWgMxLtJwnUJuL_Y-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-74" value="提醒消息在第一轮循环的时候会加到用户的输入信息上，第二轮后开始会加到tool_result的content数组的最后面&lt;div&gt;content为数组的情况为以下两种&lt;/div&gt;&lt;div&gt;1.llm的返回,总的类型为assistant，一般会包含type为tool_use和text的对象，这两个都不是必有的&lt;/div&gt;&lt;div&gt;2.tool_result，总的类型为user，一开始都是type为tool_result的对象，进入下一轮如果有提醒就会有一个type为text的对象&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;在转为openai格式的时候会将content数组变成一条条记录其中text类型的role会变成原先的总类型，tool_use的role变为assistant，tool_result的role变为tool，当然还会做一个将根据toolId将tool_result放到对应tool_use后面的排序操作&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="390" width="240" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
