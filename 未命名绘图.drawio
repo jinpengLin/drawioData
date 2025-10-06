@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="Q0NscItecU1U9k1imM_O">
-    <mxGraphModel dx="7774" dy="4916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2053" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,7 +259,7 @@
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-26" value="eventDispatcher&lt;div&gt;提醒消息事件分发器&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-412" y="1210" width="113" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ng6PZ43AAAkMnln1ni1C-27" value="&lt;div&gt;session:startup&lt;/div&gt;1.重置提醒服务的sessionState&lt;div&gt;2.重置文件新鲜度服务的state和取消todo文件的监听，这个事件在文件新鲜服务的构造器上注册&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-27" value="&lt;div&gt;session:startup&lt;/div&gt;1.重置提醒服务的sessionState，清空提醒缓存reminderCache&lt;div&gt;2.重置文件新鲜度服务的state和取消todo文件的监听，这个事件在文件新鲜服务的构造器上注册&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-440" y="1260" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-28" target="Ng6PZ43AAAkMnln1ni1C-30">
