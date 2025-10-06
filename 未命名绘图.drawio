@@ -465,6 +465,12 @@
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-96" value="ThinkTool&lt;div&gt;将 AI 的隐式推理过程显式化&lt;/div&gt;&lt;div&gt;本质上是给 AI 一个&quot;自言自语&quot;的渠道&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2100" y="2080" width="240" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-97" value="想一想如何改进文档结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="2000" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-98" value="&lt;div&gt;&lt;div&gt;创建任务列表：&lt;/div&gt;&lt;div&gt;1. 查看项目名称&lt;/div&gt;&lt;div&gt;2. 查看项目版本&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1276.5" y="2000" width="150" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
