@@ -402,6 +402,15 @@
         <mxCell id="Ng6PZ43AAAkMnln1ni1C-74" value="提醒消息在第一轮循环的时候会加到用户的输入信息上，第二轮后开始会加到tool_result的content数组的最后面&lt;div&gt;content为数组的情况为以下两种&lt;/div&gt;&lt;div&gt;1.llm的返回,总的类型为assistant，一般会包含type为tool_use和text的对象，这两个都不是必有的&lt;/div&gt;&lt;div&gt;2.tool_result，总的类型为user，一开始都是type为tool_result的对象，进入下一轮如果有提醒就会有一个type为text的对象&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;在转为openai格式的时候会将content数组变成一条条记录其中text类型的role会变成原先的总类型，tool_use的role变为assistant，tool_result的role变为tool，当然还会做一个将根据toolId将tool_result放到对应tool_use后面的排序操作&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="390" width="240" height="280" as="geometry" />
         </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ng6PZ43AAAkMnln1ni1C-76" target="Ng6PZ43AAAkMnln1ni1C-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-76" value="&lt;div&gt;获取todo提醒时&lt;/div&gt;1.尝试从todo存储服务的todoCache获取&lt;div&gt;2.尝试从todo存储服务的sessionState.todos获取并更新到缓存todoCache&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2490" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng6PZ43AAAkMnln1ni1C-77" value="TodoWriterTool执行时&lt;div&gt;1.数据更新到todo存储服务的sessionState.todos&lt;/div&gt;&lt;div&gt;2.清理todo存储服务的缓存todoCache&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1.25" y="2640" width="267.5" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
